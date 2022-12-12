@@ -1,0 +1,28 @@
+Fork
+- 다른 깃허브 저장소를 복사하는 작업
+
+Upstream
+- 오픈소스 프로젝트의 저장소
+
+origin
+- 나의 저장소
+
+로컬 저장소
+- 내가 자신의 컴퓨터에 복사한 지역 저장소
+
+로컬 저장소 -> origin = push
+로컬 저장소 <- origin = pull, fetch
+
+Upstream -> 로컬 저장소 = pull
+Upstream -> origin = fork
+Fork한 저장소의 변경 내용을 가져오는 것 = fetch upstream -> fetch and merge
+
+Upstream <- origin = pull request
+
+Upstream, origin -> 로컬 저장소 = clone
+
+
+오픈 소스 프로젝트에 기여 과정
+Upstream -> origin -> 로컬 저장소 -> 변경 사항 적용 -> origin -> Upstream
+	     (fork)     (clone, pull)                                (push)   (pull request)
+
